@@ -4,6 +4,10 @@
 
 #include <iostream>
 
+bool hit_sphere(const point3& center, double radius, const ray& r){
+    
+}
+
 color ray_color(const ray& r) {
     vec3 unit_direction = unit_vector(r.direction());
     auto t = 0.5*(unit_direction.y() + 1.0);
